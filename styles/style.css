@@ -1,0 +1,268 @@
+/* Bismillah */
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 16px;
+    margin-top: 24px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid   #40A1F6;
+
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* Bismillah */
+.list-item{
+    display: inline-block;
+    position: relative;
+    color: azure;
+    cursor: pointer;
+    transition: 0.4s all ease;
+}
+
+.list-item:hover{
+    color: #40A1F6;
+    transition: 0.4s all ease;
+}
+
+.list-item::after{
+    content: '';
+    position: absolute;
+    width: 70%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -17px;
+    left: 0;
+    background-color:#40A1F6;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+    margin-bottom: -10px;
+
+}
+
+/* I did my best, bundan ortig'ini qilolmasam kerak*/
+
+li:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    
+}
+
+
+
+.list-item{
+    margin: 0 4px ;
+    
+    
+}
+.list-link{
+    padding: 12px 26px;
+    color: black;
+}
+
+.list-item .list-link:hover {
+  color:#40A1F6;
+}
+
+.start{
+    background-color: #40A1F6;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: #40A1F6;
+    border: none;
+    color: aliceblue;
+}
+
+.list-item :hover {
+    
+    border-bottom: #40A1F6;
+}
+
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.text-holder{
+    width: 48%;
+}
+.hero-img-holder img{
+    object-fit: contain;
+}
+.smart{
+    color: #40A1F6;
+}
+
+.blue{
+    color: #40A1F6;
+}
+
+.get{
+    background-color: #40A1F6;
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    border-color: #40A1F6;
+    border: none;
+    color: aliceblue;
+}
+
+p{
+    color: lightgrey;
+}
+
+.third{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+
+.what{
+    background-color: #40A1F6;
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    border-color: #40A1F6;
+    color: aliceblue;
+}
+
+
+
+
+.pics{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+}
+
+.fourth{
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.fives{
+    margin-top: 200px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.six{
+    text-align: center;
+    background-color: rgba(232, 236, 255, 0.3);
+}
+.form-holder{
+    border-radius: 15px;
+    border: 1px rgb(100, 98, 98) solid;
+    width: 400px;
+    height: 55px;
+    margin: 0 auto;
+    
+
+}
+
+.npt{
+    border: #b5f0f0;
+    background-color: rgba(232, 236, 255, 0.3);
+    width: 150px;
+    height: 35px;
+}
+
+
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 10px;
+}
+
+.bttn{
+    background-color: #40A1F6;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: #40A1F6;
+    color: aliceblue;
+    border: none;
+
+}
+.f{
+    color: black;
+}
+
+.sevens{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+   
+    
+}
+
+.nothing{
+    padding: 10px 20px;
+}
+
+.end{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#1D77F1;
+}
+
+.w{
+    color: white;
+}
+
+.final{
+    margin-left: 60px;
+}
+
+.something{
+    color: black;
+}
+
+/* news */
+
+.submit{
+    background-color: #f4faff;
+    border: none;
+    border-radius: 10px;
+    color:#40A1F6;
+    width: 100px;
+    height: 35px;
+}
+
+.oxirgisi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+
+}
